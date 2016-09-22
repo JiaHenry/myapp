@@ -1,0 +1,10 @@
+{
+  "name": "testapp",
+  "productName": "Test Electron App",
+  "version": "1.0.0",
+  "description": "An electron app for test use",
+  "main": "main.js",
+  "author": "Henry Jia <jiah@yeah.net>",
+  "license": "MIT",
+  "private": true
+}
