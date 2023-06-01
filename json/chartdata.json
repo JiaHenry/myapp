@@ -1,0 +1,383 @@
+{
+    "name": "App1",
+    "values": [
+        {
+            "Radio_button_0": "Garoon",
+            "Text": "ヴィクトリーフィールド株式会社",
+            "Drop_down_0": "企画営業部",
+            "Radio_button": "A",
+            "User_selection": null,
+            "Sum of Number_2": 400000,
+            "DB*SeriesSort": 7
+        },
+        {
+            "Radio_button_0": "Garoon",
+            "Text": "株式会社ひふみファイナンス",
+            "Drop_down_0": "情報企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"barry.lei@grapecity.com\",\"name\":\"Lei XueBin (Barry)\"}",
+            "Sum of Number_2": 640000,
+            "DB*SeriesSort": 3
+        },
+        {
+            "Radio_button_0": "Garoon",
+            "Text": "株式会社ひふみファイナンス",
+            "Drop_down_0": "情報企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"sunjiejing\",\"name\":\"u9\"}",
+            "Sum of Number_2": 640000,
+            "DB*SeriesSort": 6
+        },
+        {
+            "Radio_button_0": "Garoon",
+            "Text": "稲光水産",
+            "Drop_down_0": "システム室",
+            "Radio_button": "C",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 240000,
+            "DB*SeriesSort": 13
+        },
+        {
+            "Radio_button_0": "Garoon",
+            "Text": "稲光水産",
+            "Drop_down_0": "システム室",
+            "Radio_button": "C",
+            "User_selection": "{\"code\":\"yaogelei\",\"name\":\"Dyaogelei\"}",
+            "Sum of Number_2": 240000,
+            "DB*SeriesSort": 14
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "いつみ工業株式会社",
+            "Drop_down_0": "製造部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"yaogelei\",\"name\":\"Dyaogelei\"}",
+            "Sum of Number_2": 75000,
+            "DB*SeriesSort": 1
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "いつみ工業株式会社",
+            "Drop_down_0": "製造部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"dary.luo@grapecity.com\",\"name\":\"Luo HongBo (Dary)\"}",
+            "Sum of Number_2": 75000,
+            "DB*SeriesSort": 4
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "サイト商事株式会社",
+            "Drop_down_0": "総務",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"barry.lei@grapecity.com\",\"name\":\"Lei XueBin (Barry)\"}",
+            "Sum of Number_2": 22500,
+            "DB*SeriesSort": 3
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "サイト商事株式会社",
+            "Drop_down_0": "総務",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"sunjiejing\",\"name\":\"u9\"}",
+            "Sum of Number_2": 22500,
+            "DB*SeriesSort": 6
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "はんなりフーズ株式会社",
+            "Drop_down_0": "IT戦略室",
+            "Radio_button": "B",
+            "User_selection": "{\"code\":\"barry.lei@grapecity.com\",\"name\":\"Lei XueBin (Barry)\"}",
+            "Sum of Number_2": 225000,
+            "DB*SeriesSort": 10
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "はんなりフーズ株式会社",
+            "Drop_down_0": "IT戦略室",
+            "Radio_button": "B",
+            "User_selection": "{\"code\":\"sunjiejing\",\"name\":\"u9\"}",
+            "Sum of Number_2": 225000,
+            "DB*SeriesSort": 11
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "メディカルアライアンス株式会社",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 150000,
+            "DB*SeriesSort": 0
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "メディカルアライアンス株式会社",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"barry.lei@grapecity.com\",\"name\":\"Lei XueBin (Barry)\"}",
+            "Sum of Number_2": 150000,
+            "DB*SeriesSort": 3
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "ヤマシタ実業株式会社",
+            "Drop_down_0": "システム企画部",
+            "Radio_button": "B",
+            "User_selection": null,
+            "Sum of Number_2": 75000,
+            "DB*SeriesSort": 12
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "山崎自動車教習所",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 3900,
+            "DB*SeriesSort": 0
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "山崎自動車教習所",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"dary.luo@grapecity.com\",\"name\":\"Luo HongBo (Dary)\"}",
+            "Sum of Number_2": 3900,
+            "DB*SeriesSort": 4
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "有限会社HAYABUSA",
+            "Drop_down_0": "営業部長",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 7500,
+            "DB*SeriesSort": 0
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "有限会社HAYABUSA",
+            "Drop_down_0": "営業部長",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"qinjuanjuan\",\"name\":\"Qin JuanJuan (Jones)\"}",
+            "Sum of Number_2": 7500,
+            "DB*SeriesSort": 5
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "東邦ホームズ",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "B",
+            "User_selection": null,
+            "Sum of Number_2": 570000,
+            "DB*SeriesSort": 12
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "株式会社KK情報システム",
+            "Drop_down_0": "業務改革室",
+            "Radio_button": "C",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 750000,
+            "DB*SeriesSort": 13
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "株式会社KK情報システム",
+            "Drop_down_0": "業務改革室",
+            "Radio_button": "C",
+            "User_selection": "{\"code\":\"qinjuanjuan\",\"name\":\"Qin JuanJuan (Jones)\"}",
+            "Sum of Number_2": 750000,
+            "DB*SeriesSort": 15
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "株式会社エイト食品",
+            "Drop_down_0": "品質管理本部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 3000000,
+            "DB*SeriesSort": 0
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "株式会社エイト食品",
+            "Drop_down_0": "品質管理本部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"yaogelei\",\"name\":\"Dyaogelei\"}",
+            "Sum of Number_2": 3000000,
+            "DB*SeriesSort": 1
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "株式会社ワホー",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"barry.lei@grapecity.com\",\"name\":\"Lei XueBin (Barry)\"}",
+            "Sum of Number_2": 75000,
+            "DB*SeriesSort": 3
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "株式会社ワホー",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"sunjiejing\",\"name\":\"u9\"}",
+            "Sum of Number_2": 75000,
+            "DB*SeriesSort": 6
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "田中マーケティングテクノロジー",
+            "Drop_down_0": "営業",
+            "Radio_button": "A",
+            "User_selection": null,
+            "Sum of Number_2": 45000,
+            "DB*SeriesSort": 7
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "自然食品ウッディータウン",
+            "Drop_down_0": "代表",
+            "Radio_button": "B",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 22500,
+            "DB*SeriesSort": 8
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "自然食品ウッディータウン",
+            "Drop_down_0": "代表",
+            "Radio_button": "B",
+            "User_selection": "{\"code\":\"yaogelei\",\"name\":\"Dyaogelei\"}",
+            "Sum of Number_2": 22500,
+            "DB*SeriesSort": 9
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄城信息技术有限公司",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"zhangweixiang\",\"name\":\"en10\"}",
+            "Sum of Number_2": 795600,
+            "DB*SeriesSort": 2
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄城信息技术有限公司",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"barry.lei@grapecity.com\",\"name\":\"Lei XueBin (Barry)\"}",
+            "Sum of Number_2": 1193400,
+            "DB*SeriesSort": 3
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄城信息技术有限公司",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"sunjiejing\",\"name\":\"u9\"}",
+            "Sum of Number_2": 397800,
+            "DB*SeriesSort": 6
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄城教育科技有限公司",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "A",
+            "User_selection": null,
+            "Sum of Number_2": 154100,
+            "DB*SeriesSort": 7
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄籽教育科技有限公司",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 154100,
+            "DB*SeriesSort": 0
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄籽教育科技有限公司",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"zhangweixiang\",\"name\":\"en10\"}",
+            "Sum of Number_2": 161000,
+            "DB*SeriesSort": 2
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄籽教育科技有限公司",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"barry.lei@grapecity.com\",\"name\":\"Lei XueBin (Barry)\"}",
+            "Sum of Number_2": 161000,
+            "DB*SeriesSort": 3
+        },
+        {
+            "Radio_button_0": "kintone",
+            "Text": "西安葡萄籽教育科技有限公司",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"qinjuanjuan\",\"name\":\"Qin JuanJuan (Jones)\"}",
+            "Sum of Number_2": 154100,
+            "DB*SeriesSort": 5
+        },
+        {
+            "Radio_button_0": "Office",
+            "Text": "システム開発事業部",
+            "Drop_down_0": "営業部",
+            "Radio_button": "A",
+            "User_selection": null,
+            "Sum of Number_2": 87720,
+            "DB*SeriesSort": 7
+        },
+        {
+            "Radio_button_0": "Office",
+            "Text": "マネープラットフォーム株式会社",
+            "Drop_down_0": "営業部",
+            "Radio_button": "B",
+            "User_selection": null,
+            "Sum of Number_2": 80000,
+            "DB*SeriesSort": 12
+        },
+        {
+            "Radio_button_0": "Office",
+            "Text": "吉高ビューティ",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"Linner.chen@grapecity.com\",\"name\":\"Chen Jie (Linner)\"}",
+            "Sum of Number_2": 10000,
+            "DB*SeriesSort": 0
+        },
+        {
+            "Radio_button_0": "Office",
+            "Text": "吉高ビューティ",
+            "Drop_down_0": "営業企画部",
+            "Radio_button": "A",
+            "User_selection": "{\"code\":\"dary.luo@grapecity.com\",\"name\":\"Luo HongBo (Dary)\"}",
+            "Sum of Number_2": 10000,
+            "DB*SeriesSort": 4
+        },
+        {
+            "Radio_button_0": "Office",
+            "Text": "山田商事株式会社",
+            "Drop_down_0": "営業部",
+            "Radio_button": "B",
+            "User_selection": null,
+            "Sum of Number_2": 300000,
+            "DB*SeriesSort": 12
+        },
+        {
+            "Radio_button_0": "Office",
+            "Text": "石井精密機械工業",
+            "Drop_down_0": "総務部",
+            "Radio_button": "C",
+            "User_selection": null,
+            "Sum of Number_2": 80000,
+            "DB*SeriesSort": 16
+        }
+    ]
+}
