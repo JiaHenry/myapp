@@ -77,6 +77,11 @@ class ValueIndexMap {
         let key = this.getKey(value);
         return this.#indexMap[key];
     }
+
+    toJSON() {
+        // return JSON.stringify({ values: this.values, map: this.#indexMap });
+        return JSON.stringify(this.values);
+    }
 }
 
 /**
@@ -113,23 +118,120 @@ function miniArray(dataArray) {
         }
         return result;
     });
-    const restoreData = data.map(v => {
-        /** @type Object.<string, any> */
-        const d = {}; 
-        for(const key in v) {
-            d[propMap.getValueByIndex(+key)] = map[key].getValueByIndex(v[key]);
-        }
-        return d;
-    });
+    // const restoreData = data.map(v => {
+    //     /** @type Object.<string, any> */
+    //     const d = {}; 
+    //     for(const key in v) {
+    //         d[propMap.getValueByIndex(+key)] = map[key].getValueByIndex(v[key]);
+    //     }
+    //     return d;
+    // });
+    const restoreData = restoreAsArray({ map, data, propMap });
     const [s1, s2] = [JSON.stringify(dataArray), JSON.stringify(restoreData)];
     if (s1.length === s2.length) {
         console.log("Same length and same value?", s1 === s2);
     } else {
         console.log("Dif", s1, s2);
     }
-    return { map,data, propMap };
+    return { map, data, propMap };
+}
+
+/**
+ * 
+ * @param { Object<string, any> } obj 
+ * @param { ValueIndexMap<string> } map 
+ * @param { number } level
+ * @param { Object.<string, any> } result
+ */
+function miniObject(obj, map, level, result) {
+    /** @type Object.<number, Object.<string, string>> */
+    const m2 = {};
+    for(const key in obj) {
+        const index = map.push(key);
+        const item = ensureObject(m2, index, {});
+        item[index] = key;
+        const v = obj[key];
+        if (Array.isArray(v)) {
+            result[index] = miniArray(v);
+        } else {
+            const sType = typeof v;
+            if (sType === "object") {
+                miniObject(v, map, level + 1, result);
+            } else {
+                result[index] = v;
+            }
+        }
+    }
+}
+
+function restoreObject(obj, target, parsedFromJson) {
+    const props = obj.props;
+    for(const key in obj) {
+        const num = +key;
+        if (!isNaN(num)) {
+            target[props[num]] = restoreValue(obj[key], parsedFromJson);
+        }
+    }
+}
+
+function restoreValue(v, parsedFromJson) {
+    if (v && v.map && v.propMap) {
+        return restoreAsArray(v, parsedFromJson);
+    } else {
+        return v;
+    }
+}
+
+function restoreAsArray(v, parsedFromJson) {
+    const {data, map, propMap} = v;
+
+    if (parsedFromJson) {
+        const mapObj = {};
+        for(const key in map) {
+            mapObj[+key] = JSON.parse(map[key]);
+        }
+        const propsArray = JSON.parse(propMap);
+        return data.map(array => {
+            /** @type Object.<string, any> */
+            const d = {}; 
+            array.forEach((v, index) => {
+                d[propsArray[index]] = mapObj[index][v];
+            });
+            return d;
+        });
+    } else {
+        return data.map(v => {
+            /** @type Object.<string, any> */
+            const d = {}; 
+            for(const key in v) {
+                d[propMap.getValueByIndex(+key)] = map[key].getValueByIndex(v[key]);
+            }
+            return d;
+        });
+    }
 }
 
 const demoData = require("./chartdata.json");
+const jsonStr = JSON.stringify(demoData);
+console.log("JSON length", jsonStr.length);
+// miniArray(demoData.values);
+/** @type ValueIndexMap<string> */
+const map = new ValueIndexMap();
+/** @type Object.<string, any> */
+const miniObj = {};
+miniObject(demoData, map, 0, miniObj);
 
-miniArray(demoData.values);
+miniObj.props = map.values;
+console.log("map:", JSON.stringify(map));
+console.log("result:", JSON.stringify(miniObj));
+const str = JSON.stringify(miniObj);
+console.log(str.length, str);
+
+const checkObj = {};
+restoreObject(miniObj, checkObj);
+console.log("check restore", jsonStr === JSON.stringify(checkObj));
+
+const checkObj2 = {};
+restoreObject(JSON.parse(JSON.stringify(miniObj)), checkObj2, true);
+// console.log("checkObj2:", checkObj2);
+console.log("check restore from JSON", jsonStr === JSON.stringify(checkObj2));
